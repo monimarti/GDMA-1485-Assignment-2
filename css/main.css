@@ -60,7 +60,28 @@
     overflow: auto;
 }
 
+h1:first-child { /*should i be doing this?*/
+	display: none;
+}
+#hero-image {
+	background: url("../img/hero.jpeg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 600px;
+}
 
+nav li {
+	display: inline-block;
+	float: right;
+	color: #fff;
+	
+}
+
+a {
+	text-decoration: none;
+}
 
 
 
