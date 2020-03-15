@@ -3,62 +3,124 @@
 <head>
 <meta charset="UTF-8">
 <title>About</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
-<header>
+	<header id="what-we-do"><!-- image here -->
+		<div class="wrapper">
+			<div class="row">
+				<div>
+					<p><img src="img/logo.png" alt="bedford-foundation" width="100"></p><!-- do I put this in p tag? -->
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="action.html">Take Action</a></li>
+					</ul>
+				</nav>
+			</div>
+				
+			<h1>What We Do</h1>
+		</div>
+	</header>
+	
 	<div class="wrapper">
 		<div class="row">
-			<div>logo-image</div><!-- float logo -->
-			<nav> <!-- float -->
+			<nav id="left-nav">
+				 <!--  float  -->
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="action.html">Take Action</a></li>
-				</ul>
-			</nav>
-		</div>
-		<h1>What we do</h1><!-- is this the h1? -->
-		<div class="row">
-			<p>About</p><!-- how would i style this -->
-			<nav> <!--  float  -->
-				<ul>
+					<li><p>About</p></li>
 					<li><a href="">What we do</a></li>
 					<li><a href="">Mission</a></li>
 					<li><a href="">Achievments</a></li>
 				</ul>
 			</nav>
-			<div> <!-- float -->
-				<p>Since 1950, we have led the effort to permanently protect nearly 110 million acres of wilderness. We have been at the forefront of nearly every major public lands victory.</p>
-			</div>
-		</div>
-	</div>
-</header>
-	
-<div class="wrapper">
-	<div class="row">
-		<section> <!-- flaot -->
-			<header>
-				<h2>Our Mission</h2>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin. Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis enim nibh</p>
-			<blockquote >
-				<p>Bedford has helped accomplish over 200 of its partners’ major conservation goals. They inspire everyone to care for the planet</p>
-				<footer> &mdash;John Smith, Nature Conservancy Magazine </footer>
-			</blockquote>
-		</section>
-		<section>
-			<header>
-				<h2>Our Achievements</h2>
-			</header>
-			<div class="row"><!-- would this be a list or paragraphs are the icons next to the text images i will have to make or "bullets" -->
 			
+			<div id="about-col-right">
+				<p>Since 1950, we have led the effort to permanently protect nearly 110 million acres of wilderness. We have been at the forefront of nearly every major public lands victory.</p>
+			
+		
+				<header>
+					<h2>Our Mission</h2>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin. Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis enim nibh</p>
+				<blockquote >
+					<p>Bedford has helped accomplish over 200 of its partners’ major conservation goals. They inspire everyone to care for the planet</p>
+					<footer> &mdash;John Smith, Nature Conservancy Magazine </footer>
+				</blockquote>
+
+
+				<header>
+					<h2>Our Achievements</h2>
+				</header>
+				<div class="row">
+					<div class="achiev-col">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. </li>
+							<li>Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin.</li>
+							<li>Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. </li>
+						</ul>
+					</div>
+					
+					<div class="achiev-col">
+						<ul>
+							<li>Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. </li>
+							<li>Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. </li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+						</ul>
+					</div>
+				</div>
+				<!-- TABLE -->
+				<table>
+					<thead>
+						<tr>
+							<th>year</th>
+							<th>organization</th>
+							<th>net</th>
+							<th>gross</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2019</td>
+							<td>Donec blandit</td>
+							<td>$1,042.00</td>
+							<td>$1,000.00</td>
+						</tr>
+						<tr>
+							<td>2018</td>
+							<td>Vivamus scelerisque enim</td>
+							<td>$23,498.00</td>
+							<td>$2,000.00</td>
+						</tr>
+						<tr>
+							<td>2017</td>
+							<td>Lorem ipsum dolor</td>
+							<td>$78,230.00</td>
+							<td>$70,000.00</td>
+						</tr>
+						<tr>
+							<td>2016</td>
+							<td>eu maximus ligula diam</td>
+							<td>$817.00</td>
+							<td>$800.00</td>
+						</tr>
+						<tr>
+							<td>2015</td>
+							<td>scelerisque arcu sollicitudin</td>
+							<td>$234,872.00</td>
+							<td>$230,000.00</td>
+						</tr>
+					</tbody>
+				</table>
 				
 			</div>
-		</section>
-	</div>	
-</div>	
+		</div>	
+	</div>
 	
 	
 	

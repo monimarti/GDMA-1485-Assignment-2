@@ -41,8 +41,6 @@
 4.0 - Generic 
 -------------------------------------------------------------- */
 
-/* -- FORMS -- */ 
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -60,37 +58,224 @@
     overflow: auto;
 }
 
-h1:first-child { /*should i be doing this?*/
-	display: none;
-}
-#hero-image {
-	background: url("../img/hero.jpeg") no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	height: 600px;
-}
+/* -- FORMS -- */ 
 
-nav li {
-	display: inline-block;
-	float: right;
-	color: #fff;
+fieldset {
+	border: none;
+	padding-bottom: 20px;
 	
 }
+
+/* -- TABLES -- */
+
+table{
+	padding: 80px 0;
+}
+
+th {
+	font: bold small-caps 16px 'Montserrat', sans-serif;
+	color: #BDBDBD;
+	text-align: left;
+}
+
+tbody {
+	font: 18px 'EB Garamond', serif;
+	text-align: left;
+}
+
+th, td {
+	width: 800px;
+}
+
+
+/*--------------------------------------------------------------
+4.0 - Elements 
+-------------------------------------------------------------- */
 
 a {
 	text-decoration: none;
 }
 
+p {
+	font: 18px 'EB Garamond', serif;
+	color: #1F1F1F;
+}
+
+
+h1 {
+	font: bold 90px 'Montserrat', sans-serif;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
 
 
 
+/*--------------------------------------------------------------
+5.0 - Objects 
+-------------------------------------------------------------- */
+
+/*--------------------------------------------------------------
+6.0 - Components 
+-------------------------------------------------------------- */
+
+header nav {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+header nav ul li a:lastchild {
+	border: 2px solid #fff;
+	border-radius: 30px;
+}
 
 
+#hero-image div div div {
+	float: left;
+}
 
+#hero-image p {
+	font: bold 90px 'Montserrat', sans-serif;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: -50px;
+}
 
+#take-action {
+	background: url("../img/take-action.jpg") no-repeat center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 460px;
+	margin-bottom: 100px;
+}
 
+#what-we-do {
+	background: url("../img/what-we-do.jpeg") no-repeat center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 460px;
+	margin-bottom: 100px;
+}
+
+#hero-image {
+	background: url("../img/hero.jpeg") no-repeat center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 600px;
+}
+
+#what-we-do h1 {
+	padding: 120px 0;
+}
+
+#what-we-do img {
+	float: left;
+}
+
+span {
+	font: italic 40px 'EB Garamond', serif;
+	
+}
+
+.btn-green {
+	background-color: #36B3AC;
+	font: 18px 'Source Sans Pro', sans-serif;
+	border-radius: 70px;
+	padding: 5px 15px;
+	
+}
+
+h2, #left-nav li a {
+	font: bold small-caps 16px 'Montserrat', sans-serif;
+}
+
+#left-nav {
+	float: left;
+	width: 200px;
+}
+
+#left-nav li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 5px 0;
+}
+
+#left-nav li p {
+	font: italic 16px 'EB Garamond', serif;
+	color: #36B3AC;
+	margin-bottom: 2px;
+	
+}
+
+#left-nav li a:hover {
+	color: #1F1F1F;
+}
+
+blockquote {
+	border-top: thin solid #1F1F1F;/* shorthand?? */
+	border-bottom: thin solid #1F1F1F;
+	margin: 80px 0;
+}
+
+blockquote p {
+	padding: 70px 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+blockquote > footer {
+	text-align: center;
+	margin-top: -50px;
+	padding-bottom: 70px;
+}
+
+#about-col-right {
+	float: right;
+	width: 800px;
+}
+
+.achiev-col {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+}
+
+.achiev-col ul {
+	list-style-image: url("../img/tree-bullet.png");
+}
+
+.achiev-col li {
+	line-height: 30px;
+}
+
+/*--------------------------------------------------------------
+7.0 - Utilities 
+-------------------------------------------------------------- */
+header nav li a, .btn-green, h1 {
+	color: #fff;
+}
+
+a:hover {
+	color: #000;
+}
+
+h2, #left-nav li a, blockquote > footer {
+	color: #BDBDBD;
+}
 
 
 

@@ -3,9 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <title>Action</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
+		<header id="take-action"><!-- image here -->
+		<div class="wrapper">
+			<div class="row">
+				<div>
+					<p><img src="img/logo.png" alt="bedford-foundation" width="100"></p>
+				</div>
+				<nav><!-- Can you explain why this doesnt line up with the logo like it does on my home page? -->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Take Action</a></li>
+					</ul>
+				</nav>
+			</div>
+				
+			<h1>Take Action</h1>
+		</div>
+	</header>
+	
+	<section><!-- I this a section and should I be adding sections to the other pages? -->
+		<div class="wrapper">
+			<p>You can make a difference. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. </p><!-- should I use a class to style this? -->
+
+			<div class="row">
+				<div><!-- should these each be a section? -->
+					<header>
+						<h2>donate</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus</p>
+					<p><a href="" class="btn-green">make a donation</a></p>
+				</div>
+				<div>
+					<header>
+						<h2>spread the word</h2>
+					</header>
+					<p>Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin.</p>
+					<p><a href="" class="btn-green">share on social media</a></p>
+				</div>
+				<div>
+					<header>
+						<h2>volunteer</h2>
+					</header>
+					<p> Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+					<p><a href="" class="btn-green">join the foundation</a></p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+	<form class="wrapper">
+		<fieldset>
+			<legend>Sign up to volunteer</legend> <!-- am I going to have to float these? -->
+				<label for="first-name"></label> <!-- can i leave lable elemnts empty? -->
+				<input type="text" name="first-name" id="first-name" placeholder="First Name">
+				<label for="last-name"></label>
+				<input type="text" name="last-name" id="last-name" placeholder="Last Name">
+				<label for="e-mail"></label>
+				<input type="email" name="e-mail" id="e-mail" placeholder="Email Adress">
+			
+				<label>I would like to get envolved</label>
+				<input type="text">
+		</fieldset>
+	</form>
+		<footer>
+		<div class="btm-green-row">
+			<div class="wrapper">
+				<ul>
+					<li><a href=""></a>FB</li>
+					<li><a href=""></a>Dots</li>
+					<li><a href=""></a>Twitter</li>
+				</ul>
+			</div>
+		</div>
+	
+	 <!-- bg black -->
+		<div class="wrapper">
+			<address><!-- is this correct? -->
+				<p><a href="https://www.google.com/maps/place/459+Broadway,+New+York,+NY+10013/data=!4m2!3m1!1s0x89c2598bd3fc4031:0x48b829f544b1ce3f?sa=X&ved=2ahUKEwiMsMH89_XnAhUFKawKHV20BeIQ8gEwAHoECAsQAQ" target="_blank">459 BROADWAY, NEW YORK</a></p> <!-- are these floating or inline blocks? -->
+				<p><a href="tel:+12123330123">(212) 555-0123</a></p>
+				<p><a href="mailto:template@gmail.com">TEMPLATE@GMAIL.COM</a></p>
+			</address>
+		</div>
+	</footer>
 </body>
 </html>
